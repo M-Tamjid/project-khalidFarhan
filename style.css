@@ -1,0 +1,248 @@
+/* ================
+common-css
+===================
+ */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Rock+Salt&display=swap');
+body{
+  font-family: 'Roboto Serif', serif;
+}
+
+/* top-head-start */
+h2.course-title {
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  padding: 15px 0;
+  margin: 0;
+}
+a.link-coure {
+  color: inherit;
+  text-decoration: none;
+}
+/* top-head-end */
+/* nab-bar-start */
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-family: 'Rock Salt', cursive;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: -3.9px;
+  word-spacing: 5px;
+}
+.navbar-light .navbar-brand:hover{
+  color: #fff;
+}
+section.navbar {
+  background: #000;
+  padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-family: "Roboto", Sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #EC3F35;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  margin-left: 13%;
+  gap: 2em;
+}
+i.fa-solid.fa-magnifying-glass {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 3em;
+  transition: all 0.5s ease-in-out;
+}
+i.fa-solid.fa-magnifying-glass:hover{
+  color: #EC3F35;
+}
+/* nab-bar-end */
+/* main-start */
+/* banner-section-start */
+.banner-sec{
+  background-image: url(./img/1-Homepage-V2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icon-video-link {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.6;
+  padding: 10em 0;
+}
+a.yt-link {
+  color: inherit;
+  transition: all 0.5s ease-in-out;
+}
+a.yt-link:hover{
+  color: #fff;
+  opacity: 0.7;
+}
+i.fas.fa-play-circle {
+  font-size: 8em;
+}
+.newsletter{
+  background-image: url(./img/bg-widget-1.gif);
+  background-size: contain;
+}
+h2.title-newsletter {
+  color: #fff;
+  font-weight: 900;
+}
+a.button-link {
+  font-family: "Roboto Slab", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #FF0000;
+  padding: 12px 25px 12px 25px;
+  color: #fff;
+  text-decoration: none;
+}
+.row.row-newsletter {
+  text-align: center;
+  padding: 1em 0;
+}
+h2.title-newsletter {
+  padding: 10px 0;
+}
+.link-button {
+  padding: 10px 0;
+}
+/* banner-section-end */
+/* info */
+
+a.link-name {
+  color: #000;
+  text-decoration: none;
+  font-weight: 900;
+}
+p.para-kf {
+  color: #0E0D0D;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.video{
+  background-image: url(./img/1.jpeg);
+  background-size: cover;
+  text-align: center;
+}
+i.fas.fa-play-circle.video-link {
+  padding: 35% 0;
+  color: #dedbdb;
+  font-size: 90px;
+}
+i.fas.fa-play-circle.video-link:hover{
+  color: #dedbdb9f;
+}
+h2.title {
+  font-weight: 900;
+  text-align: right;
+}
+.row.row-info {
+  padding: 3em 5em;
+  align-items: center;
+}
+/* /info */
+/* MENTIONED-st */
+
+h4.title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 1em;
+}
+.col-lg-3 {
+  padding-bottom: 2em;
+}
+.row.rowMENTIONED {
+  padding: 0 5em;
+}
+section.MENTIONED{
+  background-image: url(https://khalidfarhan.com/wp-content/uploads/2022/01/bg-widget-white.gif);
+}
+.mentioned{
+  width: 100%;
+}
+/* MENTIONED-end */
+/* CONNECTED */
+
+section.CONNECTEd {
+  background: #101010;
+}
+h3.title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.row.row-CONNECTED {
+  text-align: center;
+}
+.sm-icon {
+  font-size: 70px;
+  color: #fff;
+}
+.sm-icon:hover{
+  color: #125688;
+}
+p.connect {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+a.link-sm {
+  color: #fff;
+}
+a.link-sm:hover{
+  color: rgba(255, 9, 9, 0.842);
+}
+.row.row-CONNECTED {
+  padding: 2em 0;
+}
+
+/* CONNECTED/ */
+/* main-end */
+/* footer */
+footer {
+  background: #000;
+}
+.last-connect {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.row.row-ft {
+  padding: 2em 0;
+}
+h5.title-ft {
+  font-family: 'Rock Salt', cursive;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: -3.9px;
+  word-spacing: 5px;
+  color: #fff;
+}
+p.text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+p.last-text {
+  padding: 1em 0;
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid gray;
+  margin: 0;
+}
+/* footer/ */
