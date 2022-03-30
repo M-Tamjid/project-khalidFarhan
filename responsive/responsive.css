@@ -76,4 +76,8 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
   flex-direction: column;
   gap: 1em;
 }
+ a.yt-link{
+  color: #fff;
+  opacity: 0.7;
+}
 }
